@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+main {
+	font-family: "Heebo", sans-serif;
+}
+
+.landing {
+	min-height: 100vh;
+	background: url("./hover.jpg");
+	background-size: cover;
+	padding: 0rem 5rem;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 10vh;
+}
+.nav-links {
+	display: flex;
+	list-style: none;
+}
+.nav-links li {
+	padding-left: 3rem;
+	font-size: 1.2rem;
+	color: rgb(70, 117, 245);
+}
+#logo {
+	font-family: "Lobster", cursive;
+	font-weight: lighter;
+	font-size: 2rem;
+	color: rgb(70, 117, 245);
+}
+
+.big-text {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -30%);
+	font-size: 3rem;
+	font-family: "Lobster", cursive;
+	color: rgb(136, 191, 255);
+}
+
+.intro {
+	background: rgb(35, 35, 70);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.slider {
+	background: rgb(136, 191, 255);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transform: translateY(100%);
+}
+
+.intro-text {
+	color: rgb(136, 191, 255);
+	font-family: "Heebo", sans-serif;
+	font-size: 3rem;
+}
+
+.hide {
+	background: rgb(35, 35, 70);
+	overflow: hidden;
+}
+
+.hide span {
+	transform: translateY(100%);
+	display: inline-block;
+}
