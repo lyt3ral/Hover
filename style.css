@@ -82,3 +82,5 @@ nav {
 	transform: translateY(100%);
 	display: inline-block;
 }
+
+li { cursor: pointer; }
